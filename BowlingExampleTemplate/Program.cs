@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BowlingExampleTemplate.Bowling;
+using System;
 
 namespace BowlingExampleTemplate
 {
@@ -6,7 +7,8 @@ namespace BowlingExampleTemplate
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Lets play a bowling game...");
+            BowlingLogic.bowlingGameWithRNG();
         }
     }
 }
