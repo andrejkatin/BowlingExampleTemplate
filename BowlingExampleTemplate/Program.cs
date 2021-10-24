@@ -8,7 +8,6 @@ namespace BowlingExampleTemplate
         static void Main(string[] args)
         {
             Console.WriteLine("Lets play a bowling game...");
-            BowlingLogic.bowlingGameWithRNG();
         }
     }
 }
